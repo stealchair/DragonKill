@@ -1,0 +1,14 @@
+E:\程式集\C#\屠龍\DragonKill\DragonKill\bin\Debug\net10.0\DragonKill.exe
+E:\程式集\C#\屠龍\DragonKill\DragonKill\bin\Debug\net10.0\DragonKill.deps.json
+E:\程式集\C#\屠龍\DragonKill\DragonKill\bin\Debug\net10.0\DragonKill.runtimeconfig.json
+E:\程式集\C#\屠龍\DragonKill\DragonKill\bin\Debug\net10.0\DragonKill.dll
+E:\程式集\C#\屠龍\DragonKill\DragonKill\bin\Debug\net10.0\DragonKill.pdb
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.GeneratedMSBuildEditorConfig.editorconfig
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.AssemblyInfoInputs.cache
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.AssemblyInfo.cs
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.csproj.CoreCompileInputs.cache
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.dll
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\refint\DragonKill.dll
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.pdb
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.genruntimeconfig.cache
+E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\ref\DragonKill.dll

@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\storymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\storymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\branchprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\branchprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\locationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\locationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\uiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\uiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|e:\\\u7A0B\u5F0F\u96C6\\c#\\\u5C60\u9F8D\\dragonkill\\dragonkill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF43C397-FB16-6E73-8D2C-0384D18659FB}|DragonKill\\DragonKill.csproj|solutionrelative:dragonkill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoryManager.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\StoryManager.cs",
+              "RelativeDocumentMoniker": "DragonKill\\StoryManager.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\StoryManager.cs",
+              "RelativeToolTip": "DragonKill\\StoryManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T09:34:46.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Player.cs",
+              "RelativeDocumentMoniker": "DragonKill\\Player.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Player.cs",
+              "RelativeToolTip": "DragonKill\\Player.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:31:32.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Inventory.cs",
+              "RelativeDocumentMoniker": "DragonKill\\Inventory.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Inventory.cs",
+              "RelativeToolTip": "DragonKill\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:31:49.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BranchProgress.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\BranchProgress.cs",
+              "RelativeDocumentMoniker": "DragonKill\\BranchProgress.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\BranchProgress.cs",
+              "RelativeToolTip": "DragonKill\\BranchProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:32:02.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationType.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\LocationType.cs",
+              "RelativeDocumentMoniker": "DragonKill\\LocationType.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\LocationType.cs",
+              "RelativeToolTip": "DragonKill\\LocationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:42:35.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Enemy.cs",
+              "RelativeDocumentMoniker": "DragonKill\\Enemy.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Enemy.cs",
+              "RelativeToolTip": "DragonKill\\Enemy.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA6wCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:29:20.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BattleSystem.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\BattleSystem.cs",
+              "RelativeDocumentMoniker": "DragonKill\\BattleSystem.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\BattleSystem.cs",
+              "RelativeToolTip": "DragonKill\\BattleSystem.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwEoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:29:39.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UiService.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\UiService.cs",
+              "RelativeDocumentMoniker": "DragonKill\\UiService.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\UiService.cs",
+              "RelativeToolTip": "DragonKill\\UiService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:30:02.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Game.cs",
+              "RelativeDocumentMoniker": "DragonKill\\Game.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Game.cs",
+              "RelativeToolTip": "DragonKill\\Game.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAmwDYBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:32:14.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Program.cs",
+              "RelativeDocumentMoniker": "DragonKill\\Program.cs",
+              "ToolTip": "E:\\\u7A0B\u5F0F\u96C6\\C#\\\u5C60\u9F8D\\DragonKill\\DragonKill\\Program.cs",
+              "RelativeToolTip": "DragonKill\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:28:40.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

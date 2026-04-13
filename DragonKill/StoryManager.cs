@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DragonKill
 {
-    public class StoryManager
+    public class StoryManager//劇情
     {
         public void PlayFirstEnter(LocationType location, UiService ui)
         {

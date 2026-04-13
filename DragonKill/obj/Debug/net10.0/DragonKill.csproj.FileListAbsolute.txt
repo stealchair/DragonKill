@@ -12,3 +12,4 @@ E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\refint\DragonKill
 E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.pdb
 E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.genruntimeconfig.cache
 E:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\ref\DragonKill.dll
+e:\程式集\C#\屠龍\DragonKill\DragonKill\obj\Debug\net10.0\DragonKill.sourcelink.json

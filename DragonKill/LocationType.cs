@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DragonKill
 {
-    public enum LocationType
+    public enum LocationType//定義6個位置
     {
         Root,
         LeftDown,

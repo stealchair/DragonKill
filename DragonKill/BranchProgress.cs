@@ -4,6 +4,7 @@ using System.Text;
 
 namespace DragonKill
 {
+    //是否通過一次非龍區關卡
     public class BranchProgress
     {
         public bool LeftDownCleared { get; set; } = false;

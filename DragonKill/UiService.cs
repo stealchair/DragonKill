@@ -6,7 +6,7 @@ namespace DragonKill
 {
     public class UiService
     {
-        public void ShowSlide(string text)
+        public void ShowSlide(string text)//推進時按任意鍵繼續
         {
             Console.Clear();
             Console.WriteLine(text);
@@ -15,7 +15,7 @@ namespace DragonKill
             Console.ReadKey(true);
         }
 
-        public void ShowMainScreen(Player player, Inventory inventory, BranchProgress progress, LocationType currentLocation)
+        public void ShowMainScreen(Player player, Inventory inventory, BranchProgress progress, LocationType currentLocation)//主畫面
         {
             Console.Clear();
 
@@ -42,14 +42,14 @@ namespace DragonKill
             Console.WriteLine("你要往哪裡走？");
         }
 
-        private void DrawMap(BranchProgress progress, LocationType currentLocation)
+        private void DrawMap(BranchProgress progress, LocationType currentLocation)//用文字繪製地圖
         {
-            string dragon = currentLocation == LocationType.Dragon ? "○龍○" : " 龍 ";
-            string leftUp = GetNodeText("左上", progress.LeftUpCleared, currentLocation == LocationType.LeftUp);
+            string dragon = currentLocation == LocationType.Dragon ? "○龍○" : " 龍 ";//有沒有在龍區
+            string leftUp = GetNodeText("左上", progress.LeftUpCleared, currentLocation == LocationType.LeftUp);//在不在此處，呈現有沒有打過，以下3個一樣
             string rightUp = GetNodeText("右上", progress.RightUpCleared, currentLocation == LocationType.RightUp);
             string leftDown = GetNodeText("左下", progress.LeftDownCleared, currentLocation == LocationType.LeftDown);
             string rightDown = GetNodeText("右下", progress.RightDownCleared, currentLocation == LocationType.RightDown);
-            string root = currentLocation == LocationType.Root ? "○樹根○" : " 樹根 ";
+            string root = currentLocation == LocationType.Root ? "○樹根○" : " 樹根 ";//有沒有在樹根
 
             Console.WriteLine($"               [{dragon}]");
             Console.WriteLine();
@@ -60,7 +60,7 @@ namespace DragonKill
             Console.WriteLine($"               [{root}]");
         }
 
-        private string GetNodeText(string name, bool cleared, bool isHere)
+        private string GetNodeText(string name, bool cleared, bool isHere)//確認是否打完這關
         {
             string text = cleared ? $"{name}O" : name;
 
@@ -72,7 +72,7 @@ namespace DragonKill
             return text;
         }
 
-        public string GetLocationName(LocationType location)
+        public string GetLocationName(LocationType location)//回傳現在位置
         {
             switch (location)
             {

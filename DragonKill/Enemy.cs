@@ -13,13 +13,13 @@ namespace DragonKill
         Special
     }
 
-    // 單一怪物行動
+    // 單一怪物行動狀態
     public class EnemyAction
     {
         public string Name { get; set; } = "";
         public EnemyActionType Type { get; set; }
-        public int Chance { get; set; }   // 機率，三招加起來要 100
-        public int Power { get; set; }    // 傷害值 / 防禦倍率 / 特殊效果值，都先共用這格
+        public int Chance { get; set; }   // 機率加起來要 100
+        public int Power { get; set; }    // 傷害、防禦、特殊效果倍率
     }
 
     // 怪物本體
@@ -28,8 +28,7 @@ namespace DragonKill
         public string Name { get; set; } = "";
         public int HP { get; set; }
         public int MaxHP { get; set; }
-        public int Attack { get; set; }
-        public int CritChance { get; set; }   // 例如 20 = 20%
+        public int CritChance { get; set; }   // 20 = 20% 
         public int PhysicalDefense { get; set; }
         public int MagicDefense { get; set; }
         public List<EnemyAction> Actions { get; set; } = new List<EnemyAction>();

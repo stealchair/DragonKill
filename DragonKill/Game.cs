@@ -6,17 +6,17 @@ namespace DragonKill
 {
     public class Game
     {
+        //遊戲持續運行
+        private bool isRunning = true;
+        //調用所有class
         private Player player = new Player();
         private Inventory inventory = new Inventory();
         private BranchProgress progress = new BranchProgress();
-
-        private UiService ui = new UiService();
         private BattleSystem battleSystem = new BattleSystem();
-
-        private bool isRunning = true;
         private LocationType currentLocation = LocationType.Root;
-
         private StoryManager story = new StoryManager();
+        private UiService ui = new UiService();
+        //怪物是房間指定，非新建
 
 
         public void Start()
@@ -63,6 +63,7 @@ namespace DragonKill
             }
         }
 
+        //顯示可走路線，有分支、不能亂走
         private void ShowMovementOptions()
         {
             List<LocationType> nextLocations = GetAvailableLocations();
@@ -75,6 +76,7 @@ namespace DragonKill
             Console.WriteLine("0. 離開遊戲");
         }
 
+        //現在具體位置
         private List<LocationType> GetAvailableLocations()
         {
             List<LocationType> locations = new List<LocationType>();
@@ -119,6 +121,7 @@ namespace DragonKill
             return locations;
         }
 
+        //如果是輸入0，則退出遊戲，根據其他可以走的選項走
         private void HandleMovementInput(string? input)
         {
             if (input == "0")
@@ -156,6 +159,7 @@ namespace DragonKill
             OnEnterLocation();
         }
 
+        //戰鬥結算
         private void OnEnterLocation()
         {
             switch (currentLocation)
@@ -219,6 +223,7 @@ namespace DragonKill
             }
         }
 
+        //下層四個房間狀態顯示
         private void HandleRoom(
             Enemy enemy,
             bool isCleared,
@@ -259,6 +264,7 @@ namespace DragonKill
             }
         }
 
+        //戰鬥開始入口
         private bool StartBattle(Enemy enemy)
         {
             while (player.HP > 0 && enemy.HP > 0)
@@ -277,7 +283,7 @@ namespace DragonKill
                 int baseAttack = 0;
                 bool isMagic = false;
 
-                // 玩家行動判定
+                // 行動判定
                 if (input == "1")
                 {
                     baseAttack = player.Attack;
@@ -326,11 +332,10 @@ namespace DragonKill
                     continue;
                 }
 
-                // ===== 攻擊計算 =====
-
+                //攻擊傷害計算
                 Random rand = new Random();
 
-                // 英雄之拳（只有拳頭）
+                // 英雄之拳、拳頭有1%機率爆擊
                 if (input == "1" && rand.Next(100) < 1)
                 {
                     damage = 1000;
@@ -358,8 +363,7 @@ namespace DragonKill
                         int finalPhysicalAttack = baseAttack + player.TempAttackBonus;
                         int finalPhysicalDefense = enemy.PhysicalDefense + enemy.TempPhysicalDefense;
 
-                        // 風妖特殊規則：
-                        // 平常只能法杖打，除非這回合被亂流打開物理窗口
+                        // 風妖特殊規則，平常只能法杖打，除非這回合亂流
                         if (enemy.Name == "風妖" && enemy.TempPhysicalDefense > -100)
                         {
                             damage = 0;
@@ -393,6 +397,7 @@ namespace DragonKill
             return player.HP > 0;
         }
 
+        //到龍面前
         private void HandleDragon()
         {
             ui.ShowSlide("你面前站著那條傳說中的龍……");

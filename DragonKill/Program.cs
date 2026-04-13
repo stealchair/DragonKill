@@ -1,6 +1,6 @@
 ﻿namespace DragonKill
 {
-    public class Program
+    public class Program//開啟遊戲
     {
         public static void Main()
         {

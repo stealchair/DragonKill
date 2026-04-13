@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DragonKill
 {
-    public class Inventory
+    public class Inventory//道具庫擁有狀況
     {
         public bool HasSword { get; set; } = false;
         public bool HasStaff { get; set; } = false;

@@ -4,9 +4,10 @@ using System.Text;
 
 namespace DragonKill
 {
+    //創建戰鬥系統
     public class BattleSystem
     {
-        private Random random = new Random();
+        private Random random = new Random();//機率骰子
 
         public EnemyAction GetRandomEnemyAction(Enemy enemy)
         {
@@ -17,7 +18,7 @@ namespace DragonKill
             {
                 current += action.Chance;
 
-                if (roll <= current)
+                if (roll <= current)//骰行動數值
                 {
                     return action;
                 }
@@ -31,9 +32,9 @@ namespace DragonKill
             enemy.IsPhysicalDefending = false;
             enemy.IsMagicDefending = false;
 
-            EnemyAction action = GetRandomEnemyAction(enemy);
+            EnemyAction action = GetRandomEnemyAction(enemy);//每次行動前確定行動選項
 
-            if (action.Type == EnemyActionType.Attack)
+            if (action.Type == EnemyActionType.Attack)//攻擊型行為，會有爆擊
             {
                 bool isCrit = random.Next(1, 101) <= enemy.CritChance;
                 int damage = action.Power;
@@ -50,17 +51,7 @@ namespace DragonKill
                     return $"{enemy.Name} 使用了「{action.Name}」！\n造成 {damage} 點傷害！";
                 }
             }
-            else if (action.Type == EnemyActionType.PhysicalDefense)
-            {
-                enemy.IsPhysicalDefending = true;
-                return $"{enemy.Name} 使用了「{action.Name}」！\n進入物理防禦姿態！";
-            }
-            else if (action.Type == EnemyActionType.MagicDefense)
-            {
-                enemy.IsMagicDefending = true;
-                return $"{enemy.Name} 使用了「{action.Name}」！\n進入魔法防禦姿態！";
-            }
-            else
+            else//特殊行為，會有防禦或給玩家debuff
             {
                 enemy.TempPhysicalDefense = 0;
                 enemy.TempMagicDefense = 0;
@@ -110,7 +101,7 @@ namespace DragonKill
                 {
                     enemy.TempPhysicalDefense = -100;
                     player.HP -= 15;
-                    return "亂流！你受到15傷害，防禦崩潰！";
+                    return "亂流！你受到15傷害，風妖防禦崩潰！";
                 }
 
                 if (enemy.Name == "龍" && action.Name == "龍鱗護體")
